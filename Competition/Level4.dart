@@ -1,3 +1,4 @@
+enum Units{Cms, Metters, Kms}
 class Distance {
   final double _value;
   final String _unit;
