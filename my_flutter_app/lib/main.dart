@@ -13,31 +13,31 @@ class MyApp extends StatelessWidget {
       title: 'My Flutter App',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Flutter App'),
+          title: const Text('Pimol App '),
         ),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                'Hello, Flutter!',
+                'Bonjour, je m_appelle Pimol!',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 20),
               Container(
                 width: 200,
-                height: 100,
+                height: 80,
                 color: Colors.blue,
                 child: const Center(
                   child: Text(
-                    'Blue Box',
+                    'Boite d_amour',
                     style: TextStyle(fontSize: 18, color: Colors.white),
                   ),
                 ),
               ),
               const SizedBox(height: 20),
               const MyCustomWidget(
-                text: 'Custom Widget',
+                text: 'Widget Personnalise',
                 color: Colors.green,
               ),
             ],
