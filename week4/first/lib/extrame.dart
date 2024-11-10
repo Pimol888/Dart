@@ -103,7 +103,7 @@ class FoodMenuScreen extends StatelessWidget {
             FoodCard(
               title: "Terk Kroueng",
               description: "Juicy with side vegetables.",
-              imagePath: 'assets/terk kroeung.jpg',
+              imagePath: 'assets/terkkroeung.jpg',
               category: FoodCategory.mainCourse,
               price: 5.00,
             ),
@@ -111,7 +111,7 @@ class FoodMenuScreen extends StatelessWidget {
             FoodCard(
               title: "Somlor Korko",
               description: "Heaven of vegetables.",
-              imagePath: 'assets/Chocolate Cake.jpg',
+              imagePath: 'assets/ChocolateCake.jpg',
               category: FoodCategory.dessert,
               price: 5.00,
             ),
